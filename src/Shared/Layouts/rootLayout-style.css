@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.content-view {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    gap: 10em;
+}
+.root-layout video {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    max-height: 100vh;
+    object-fit: cover;
+    opacity: 20%;
+}

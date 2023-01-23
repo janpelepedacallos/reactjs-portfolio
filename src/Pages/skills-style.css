@@ -1,0 +1,48 @@
+
+.skills-content {
+    display: flex;
+}
+.skills h1 {
+    font-size: 2.5em;
+    position: relative;
+}
+.skills h1::after {
+    content: '';
+    position: absolute;
+    height: .1em;
+    width: 8%;
+    background-color: #6C63FE;
+    bottom: 0;
+    left: 0;
+}
+.software-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.software-icons img {
+    width: 10em;
+    padding: 1em;
+    cursor: pointer;
+    transition: .3s ease;
+    position: relative;
+}
+.software-icons .imgs {
+    position: relative;
+    border-bottom: .2em solid #6C63FE;
+    margin: 1em;
+}
+.software-icons .imgs::before {
+    /* transform: scale(1.1); */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: #6C63FE;
+    border-radius: 10px 10px 0 0;
+    transition: .3s ease;
+}
+.software-icons .imgs:hover::before {
+    height: 100%;
+}

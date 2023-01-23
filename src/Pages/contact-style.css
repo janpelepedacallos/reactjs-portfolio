@@ -1,0 +1,127 @@
+.email {
+    display: flex;
+    gap: 3em;
+}
+.send-email {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px #f4f4f4;
+}
+.send-email h2 {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+    margin-bottom: 1em;
+}
+.send-email h2 img {
+    width: 1.3em;
+}
+.send-email form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.send-email .sender-info label:nth-child(3) {
+    margin-left: 1.5em;
+}
+.send-email form input {
+    border-radius: 5px;
+    padding: .8em 1em;
+    border: none;
+    outline: none;
+    background-color: #e6e4ff;
+    border: 2px solid transparent;
+    width: 15em;
+}
+.send-email .sender-info {
+    display: flex;
+    gap: 1em;
+}
+.send-email .sender-info .sender-name,
+.send-email .sender-info .sender-email,
+.send-email .sender-message {
+    display: flex;
+    flex-direction: column;
+}
+.send-email textarea {
+    resize: none;
+    padding: 1em;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    height: 10em;
+    background-color: #e6e4ff;
+}
+.send-email textarea:focus {
+    border: 2px solid #6C63FE;
+}
+.send-email form label {
+    font-size: .9em;
+}
+.send-email form input:focus {
+    border: 2px solid #6C63FE;
+}
+.send-email form .sender-subject {
+    display: flex;
+    flex-direction: column;
+}
+.send-email .form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.send-email .form-buttons button {
+    padding: .3em 2em;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid #6C63FE;
+    background-color: #6C63FE;
+    color: #fff;
+}
+.send-email .form-buttons button:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.send-email .form-buttons button:nth-child(1):hover {
+    background-color: #8e8aff;
+    border-color: #8e8aff;
+}
+.send-email .form-buttons button:nth-child(1) img {
+    width: 2em;
+}
+.send-email .form-buttons button:nth-child(2) {
+    padding: 0 2.5em;
+    background-color: transparent;
+    color: #6C63FE;
+    border: 2px solid #6C63FE;
+}
+.send-email .form-buttons button:nth-child(2):hover {
+    background-color: #6C63FE;
+    color: #fff;
+}
+.email-details h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.email-details a {
+    text-decoration: underline;
+}
+.email-details .email-link {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 1em;
+    box-shadow: 0 0 12px 2px #f4f4f4;
+    cursor: default;
+}
+.email-details .email-link .email-icon {
+    background-color: #e6e4ff;
+    padding: .5em 1em .1em;
+    border-radius: 40px;
+}
