@@ -1,0 +1,86 @@
+.bar {
+    height: .7em;
+    float: left;
+    background-color: #6C63FE;
+    border-radius: 50px;
+}
+.bar-background {
+    background-color: #5C576C;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+}
+.skills-range p {
+    margin-top: 1em;
+}
+.html {
+    animation: htmlBar .5s forwards;
+}
+.css {
+    animation: cssBar .5s forwards;
+}
+.js {
+    animation: jsBar .5s forwards;
+}
+.react {
+    animation: reactBar .5s forwards;
+}
+.photoshop {
+    animation: photoshopBar .5s forwards;
+}
+.illustrator {
+    animation: illustratorBar .5s forwards;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+@keyframes htmlBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes cssBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes jsBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+@keyframes reactBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes photoshopBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+@keyframes illustratorBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}

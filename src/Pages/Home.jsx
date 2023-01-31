@@ -8,9 +8,18 @@ const Home = () => {
             <motion.div 
             className="home" 
             
-            initial={{translateX: "-200%"}}
-            animate={{translateX: "0"}}
-            exit={{translateX: "200%"}}>
+            initial={{
+                opacity: 0,
+                translateX: '-20%'
+            }}
+            animate={{
+                opacity: 1,
+                translateX: '0'
+            }}
+            exit={{
+                opacity: 0,
+                translateX: '-20%'
+            }}>
             <div className="profile-details">
                 <h1>Hello, I'm <span>Jan Phillip</span></h1>
                 <p><span>Graphics Designer / Full Stack Developer</span></p>

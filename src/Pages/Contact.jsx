@@ -6,9 +6,19 @@ import { Link } from 'react-router-dom'
 const Contact = () => {
     return (
         <motion.div className="email"
-            initial={{translateX: "-200%"}}
-            animate={{translateX: "0"}}
-            exit={{translateX: "200%"}}>
+            
+        initial={{
+            opacity: 0,
+            translateX: '-20%'
+        }}
+        animate={{
+            opacity: 1,
+            translateX: '0'
+        }}
+        exit={{
+            opacity: 0,
+            translateX: '-20%'
+        }}>
             <div className="send-email">
                 <h2>Send me a <span>Message</span> <img src="/src/Assets/icons/chat_message_sent_40px.png" alt="chat_message_sent_40px.png" /></h2>
 

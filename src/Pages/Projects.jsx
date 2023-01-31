@@ -4,9 +4,19 @@ import './projects-style.css'
 const Projects = () => {
     return (
         <motion.div className="projects" 
-            initial={{translateX: "-200%"}}
-            animate={{translateX: "0"}}
-            exit={{translateX: "200%"}}>
+            
+        initial={{
+            opacity: 0,
+            translateX: '-20%'
+        }}
+        animate={{
+            opacity: 1,
+            translateX: '0'
+        }}
+        exit={{
+            opacity: 0,
+            translateX: '-20%'
+        }}>
             <div className="projects-content">
                 <h1>Take a view of my <span>projects.</span></h1>
                 <p>These are just few of my projects that I made recently. Work with me as we create an innovative </p>

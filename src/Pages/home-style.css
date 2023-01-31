@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     gap: 5em;
+    width: 90%;
 }
 .profile-details {
     text-align: right;
@@ -48,6 +49,16 @@
     width: 100%;
     border-radius: 34% 66% 45% 55% / 70% 67% 33% 30%   ;
     background-color: #6C63FE;
+    animation: spin 3s infinite;
     top: 0;
     left: 0;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(180deg);
+    }
+    0% {
+        transform: rotate(-180deg);
+    }
 }

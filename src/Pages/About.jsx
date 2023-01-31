@@ -5,9 +5,19 @@ import { motion } from 'framer-motion'
 const About = () => {
     return (
         <motion.div className="about"
-        initial={{translateX: "-200%"}}
-        animate={{translateX: "0"}}
-        exit={{translateX: "0"}}>
+        
+        initial={{
+            opacity: 0,
+            translateX: '-20%'
+        }}
+        animate={{
+            opacity: 1,
+            translateX: '0'
+        }}
+        exit={{
+            opacity: 0,
+            translateX: '-20%'
+        }}>
             <div className="about-details">
                 <h4>Hi, I'm <span>Jan Phillip M. Dacallos</span></h4>
                 <h1><span>A Graphic Designer and Full Stack Developer</span></h1>
